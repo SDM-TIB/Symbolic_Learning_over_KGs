@@ -108,14 +108,14 @@ def writeData(df,supp,conf,pca):
     df['Inferred_Confidence'] = conf
     df['Inferred_PCA'] = pca
     #  saving the metrics over KG with inferred triples
-    df.to_csv("Rules/phd_experiments_result.csv", index=False)
+    df.to_csv("results/phd_experiments_result.csv", index=False)
 
 
 def read():
     # Subset of rules for experiments
-    df = pd.read_csv("Rules/phd_experiments.csv")
+    df = pd.read_csv("phd_experiments.csv")
     # SPARQL endpoint of KG with inferred triples
-    endpoint = "http://NB-WXE15566:7200/repositories/exp"
+    endpoint = "http://localhost:7000/repositories/exp"
     supp = support(df, endpoint)
     conf = confidence(df, endpoint)
     pca = pca_confidence(df, endpoint)

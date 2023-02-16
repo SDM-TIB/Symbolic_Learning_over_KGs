@@ -8,7 +8,7 @@ from scipy.stats import fisher_exact
 from scipy import stats
 from scipy.stats import pearsonr
 
-df = pd.read_csv("Rules/phd_experiments_result.csv")
+df = pd.read_csv("results/phd_experiments_result.csv")
 df1 = df[['PCA Confidence','Inferred_PCA']]
 
 
@@ -33,5 +33,5 @@ ax2.set_title('Inferred PCA Confidence')
 ax2.set_xlabel('Inferred PCA Confidence')
 ax2.set_ylabel('Rules')
 plt.show()
-# fig.savefig('PCA_Confidence_Histogram_linear_pval.png')
+fig.savefig('results/PCA_Confidence_Histogram_linear_pval.png')
 
