@@ -1,0 +1,71 @@
+Body,Head,Head Coverage,Std Confidence,PCA Confidence,Positive Examples,Body size,PCA Body size,Functional variable
+?a  <family>  <Father>  ?a  <histology>  <small_cell_carcinoma_of_lung>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.018417462,0.981818182,1,54,55,40,?a
+?a  <family>  <Brother>  ?a  <histology>  <small_cell_carcinoma_of_lung>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.015347885,1,1,45,45,38,?a
+?a  <family>  <Mother>  ?a  <histology>  <small_cell_carcinoma_of_lung>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.012278308,1,1,36,36,41,?a
+?a  <stage>  <IIIB>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.043997271,0.914893617,0.934782609,129,141,33,?a
+?a  <histology>  <adenocarcinoma>  ?a  <oncologicalTreatment>  <Radiotherapy>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.092769441,0.934707904,0.934707904,272,291,51,?a
+?a  <oncologicalTreatment>  <Radiotherapy>  ?a  <stage>  <IIIA>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.052523874,0.933333333,0.933333333,154,165,87,?a
+?a  <biomarker>  <PDL1>  ?a  <histology>  <adenocarcinoma>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.028649386,0.893617021,0.933333333,84,94,37,?a
+?a  <family>  <Father>  ?a  <oncologicalTreatment>  <Radiotherapy>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.056957708,0.932960894,0.932960894,167,179,33,?a
+?a  <oncologicalTreatment>  <Radiotherapy>  ?a  <smokingHabit>  <CurrentSmoker>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.084242838,0.932075472,0.932075472,247,265,53,?a
+?a  <smokingHabit>  <NonSmoker>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.032742156,0.727272727,0.761904762,96,132,126,?a
+?a  <gender>  <Female>  ?a  <stage>  <IIIA>   ,?a  <oncologicalTreatment>  <Surgery>,0.016712142,0.720588235,0.720588235,49,68,68,?a
+?a  <stage>  <IIB>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.016371078,0.705882353,0.705882353,48,68,68,?a
+?a  <stage>  <IIA>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.01159618,0.666666667,0.68,34,51,50,?a
+?a  <stage>  <IIIA>   ,?a  <oncologicalTreatment>  <Surgery>,0.049795362,0.603305785,0.605809129,146,242,241,?a
+?a  <race>  <Caucasian>  ?a  <stage>  <IV>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.052523874,0.568265683,0.59922179,154,271,257,?a
+?a  <oncologicalTreatment>  <Surgery>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.106070941,0.598076923,0.598076923,311,520,520,?a
+?a  <biomarker>  <PDL1>  ?a  <race>  <Caucasian>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.024556617,0.549618321,0.576,72,131,125,?a
+?a  <smokingHabit>  <FormerSmoker>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.103342428,0.495098039,0.510961214,303,612,593,?a
+?a  <histology>  <adenocarcinoma>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.099249659,0.485,0.499142367,291,600,583,?a
+?a  <stage>  <IVA>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.012619372,0.44047619,0.493333333,37,84,75,?a
+?a  <familyOrgan>  <Breast>  ?a  <oncologicalTreatment>  <Radiotherapy>   ,?a  <oncologicalTreatment>  <Radical>,0.013301501,0.419354839,0.419354839,39,93,35,?a
+?a  <stage>  <IB>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.012278308,0.378947368,0.378947368,36,95,95,?a
+?a  <oncologicalTreatment>  <Surgery>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.059345157,0.334615385,0.334615385,174,520,520,?a
+?a  <oncologicalTreatment>  <Radiotherapy>   ,?a  <oncologicalTreatment>  <Surgery>,0.059345157,0.275316456,0.275316456,174,632,632,?a
+?a  <smokingHabit>  <FormerSmoker>  ?a  <stage>  <IV>   ,?a  <oncologicalTreatment>  <Immunotherapy>,0.011937244,0.257352941,0.269230769,35,136,130,?a
+?a  <familyOrgan>  <Breast>  ?a  <oncologicalTreatment>  <Chemotherapy>   ,?a  <oncologicalTreatment>  <Immunotherapy>,0.01159618,0.261538462,0.261538462,34,130,130,?a
+?a  <family>  <Father>  ?a  <oncologicalTreatment>  <Chemotherapy>   ,?a  <oncologicalTreatment>  <Immunotherapy>,0.022510232,0.25984252,0.25984252,66,254,254,?a
+?a  <oncologicalTreatment>  <Immunotherapy>   ,?a  <oncologicalTreatment>  <Surgery>,0.018417462,0.254716981,0.254716981,54,212,212,?a
+?a  <oncologicalTreatment>  <Chemotherapy>  ?a  <oncologicalTreatment>  <Radical>   ,?a  <oncologicalTreatment>  <Immunotherapy>,0.021145975,0.25,0.25,62,248,248,?a
+?a  <oncologicalTreatment>  <Chemotherapy>  ?a  <smokingHabit>  <CurrentSmoker>   ,?a  <oncologicalTreatment>  <Immunotherapy>,0.03308322,0.248717949,0.248717949,97,390,390,?a
+?a  <stage>  <IV>   ,?a  <oncologicalTreatment>  <Immunotherapy>,0.018076398,0.18466899,0.194139194,53,287,273,?a
+?a  <oncologicalTreatment>  <Surgery>   ,?a  <oncologicalTreatment>  <Immunotherapy>,0.018417462,0.103846154,0.103846154,54,520,520,?a
+?a  <gender>  <Female>  ?a  <stage>  <IIIA>   ,?a  <oncologicalTreatment>  <Surgery>,0.016712142,0.720588235,0.720588235,49,68,68,?a
+?a  <familyOrgan>  <Breast>  ?a  <smokingHabit>  <CurrentSmoker>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.012278308,0.705882353,0.72,36,51,50,?a
+?a  <oncologicalTreatment>  <Immunotherapy>  ?a  <stage>  <IVB>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.010231924,0.714285714,0.714285714,30,42,42,?a
+?a  <histology>  <squamous_cell_carcinoma>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.074010914,0.695512821,0.709150327,217,312,306,?a
+?a  <histology>  <adenocarcinoma>  ?a  <stage>  <IIIA>   ,?a  <oncologicalTreatment>  <Surgery>,0.026603001,0.709090909,0.709090909,78,110,110,?a
+?a  <histology>  <adenocarcinoma>  ?a  <stage>  <IIIA>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.026603001,0.709090909,0.709090909,78,110,110,?a
+?a  <familyOrgan>  <Esophagus_Gastric>  ?a  <oncologicalTreatment>  <Chemotherapy>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.01739427,0.708333333,0.708333333,51,72,72,?a
+?a  <stage>  <IIB>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.016371078,0.705882353,0.705882353,48,68,68,?a
+?a  <histology>  <squamous_cell_carcinoma>  ?a  <stage>  <IIIB>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.012278308,0.705882353,0.705882353,36,51,51,?a
+?a  <oncologicalTreatment>  <Immunotherapy>  ?a  <smokingHabit>  <CurrentSmoker>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.023533424,0.704081633,0.704081633,69,98,98,?a
+?a  <family>  <Grandmother>  ?a  <oncologicalTreatment>  <Radiotherapy>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.011937244,0.972222222,0.972222222,35,36,36,?a
+?a  <familyOrgan>  <Colorectal>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.041950887,0.872340426,0.897810219,123,141,137,?a
+?a  <family>  <Father>  ?a  <gender>  <Male>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.056616644,0.878306878,0.892473118,166,189,186,?a
+?a  <familyOrgan>  <Lung>  ?a  <smokingHabit>  <CurrentSmoker>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.025238745,0.880952381,0.891566265,74,84,83,?a
+?a  <family>  <Father>  ?a  <stage>  <IIIA>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.016371078,0.888888889,0.888888889,48,54,54,?a
+?a  <family>  <Sister>  ?a  <smokingHabit>  <CurrentSmoker>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.018076398,0.883333333,0.883333333,53,60,60,?a
+?a  <family>  <Grandmother>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.01739427,0.836065574,0.879310345,51,61,58,?a
+?a  <familyOrgan>  <Lung>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.063096862,0.860465116,0.868544601,185,215,213,?a
+?a  <family>  <Sister>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.045020464,0.857142857,0.868421053,132,154,152,?a
+?a  <family>  <Brother>  ?a  <gender>  <Female>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.015006821,0.830188679,0.862745098,44,53,51,?a
+?a  <race>  <Latin>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.010572988,0.837837838,0.861111111,31,37,36,?a
+?a  <familyOrgan>  <Prostate>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.019099591,0.811594203,0.835820896,56,69,67,?a
+?a  <gender>  <Male>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.226466576,0.764096663,0.783018868,664,869,848,?a
+?a  <family>  <Father>  ?a  <stage>  <IIIA>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.014324693,0.777777778,0.777777778,42,54,54,?a
+?a  <family>  <Aunt>  ?a  <race>  <Caucasian>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.011937244,0.777777778,0.777777778,35,45,45,?a
+?a  <gender>  <Female>  ?a  <stage>  <IIIB>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.010572988,0.756097561,0.775,31,41,40,?a
+?a  <oncologicalTreatment>  <Adjuvant>   ,?a  <oncologicalTreatment>  <Surgery>,0.014665757,0.767857143,0.767857143,43,56,56,?a
+?a  <family>  <Father>  ?a  <familyOrgan>  <Esophagus_Gastric>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.011255116,0.717391304,0.76744186,33,46,43,?a
+?a  <smokingHabit>  <NonSmoker>   ,?a  <oncologicalTreatment>  <Chemotherapy>,0.032742156,0.727272727,0.761904762,96,132,126,?a
+?a  <family>  <Father>  ?a  <oncologicalTreatment>  <Immunotherapy>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.01739427,0.76119403,0.76119403,51,67,67,?a
+?a  <family>  <Father>  ?a  <histology>  <small_cell_carcinoma_of_lung>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.013983629,0.745454545,0.759259259,41,55,54,?a
+?a  <histology>  <squamous_cell_carcinoma>  ?a  <oncologicalTreatment>  <Immunotherapy>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.012619372,0.755102041,0.755102041,37,49,49,?a
+?a  <smokingHabit>  <CurrentSmoker>  ?a  <stage>  <IVB>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.012278308,0.734693878,0.75,36,49,48,?a
+?a  <smokingHabit>  <CurrentSmoker>  ?a  <stage>  <IIIB>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.015347885,0.75,0.75,45,60,60,?a
+?a  <stage>  <IIIA>  ?a  <type>  <PatientFamily>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.031718963,0.744,0.75,93,125,124,?a
+?a  <familyOrgan>  <UNK>  ?a  <oncologicalTreatment>  <Surgery>   ,?a  <smokingHabit>  <FormerSmoker>,0.012077295,0.75,0.75,15,20,20,?a
+?a  <familyOrgan>  <Bladder_Urinary_Tract>  ?a  <oncologicalTreatment>  <Radiotherapy>   ,?a  <family>  <Father>,0.013256007,0.727272727,0.727272727,16,22,22,?a
+?a  <family>  <Mother>  ?a  <familyOrgan>  <Breast>   ,?a  <oncologicalTreatment>  <Radiotherapy>,0.016030014,0.691176471,0.701492537,47,68,67,?a
